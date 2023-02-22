@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    color: white;
+    background: linear-gradient(145deg, #2193b0, #6dd5ed);
+    width: 400px;
+    margin: 50px auto;
+    border-radius: 9px;
+    font-size: 14px;
+}
+
+.main-section {
+}
+
+.search-location {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid white;
+    position: relative;
+}
+
+.search-icon {
+    padding-right: 10px;
+    left: 0;
+    position: absolute;
+}
+
+#search-input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    height: 20px;
+}
+
+#search-input::placeholder {
+    color: rgb(206, 206, 206);
+}
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 50px;
+    position: relative;
+}
+
+/* .error-section {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    text-align: center;
+    margin: 50px;
+}
+
+.error-code {
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+} */
+
+.city-name {
+    font-size: 30px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.weather-state {
+    font-size: 13px;
+}
+
+.weather-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.temperature {
+    font-size: 80px;
+    line-height: 1;
+    font-weight: lighter;
+    position: relative;
+}
+
+.temperature::after {
+    content: 'o';
+    position: absolute;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.secondary-section {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    font-size: 13px;
+    border-top: 1px solid white;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.label {
+    font-weight: 500;
+}
